@@ -1,0 +1,13 @@
+
+POST HTTP://LocalHost:1234/livro/cadastrar
+content-type: application/json 
+{"nome": "+ Esperto que o diabo", "isbn": 666, "preco": 666 }
+###
+GET HTTP://LocalHost:1234/livro/buscar/666
+###
+GET HTTP://LocalHost:1234/livro/listar
+###
+PUT HTTP://LocalHost:1234/livro/alterar
+content-type: application/json
+ {"nome": "Do mil ao milhão", "isbn": 24, "preco": 0 }
+###
